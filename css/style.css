@@ -19,6 +19,9 @@
     background-color: black;
 }
 
+.bg-light-grey{
+    background-color: rgb(246, 246, 246);
+}
 .bg-image-discord{
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -43,6 +46,10 @@
 .row{
     width: 100%;
     display: flex;
+}
+
+.reverse-row{
+    flex-direction: row-reverse;
 }
 
 .height-70{
