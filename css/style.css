@@ -19,11 +19,20 @@
     background-color: black;
 }
 
+.bg-violet{
+    background-color: rgb(141, 161, 225);
+}
 .bg-light-grey{
     background-color: rgb(246, 246, 246);
 }
+
 .bg-image-discord{
     background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.bg-image-stars{
+    background-image: url(../img/stars.svg);
     background-size: cover;
 }
 .white{
@@ -76,8 +85,9 @@
 .col-100{
     width: 100%;
 }
-.jc-space-between{
-    justify-content: space-between;
+
+.jc-center{
+    justify-content: center;
 }
 
 /* LINE HEIGHT */
@@ -97,11 +107,19 @@
 .padding-0-50{
     padding: 0px 50px;
 }
+
+.padding-top{
+    padding-top: 50px;
+}
 .padding-60{
     padding: 60px;
 }
 .padding-120{
     padding: 120px;
+}
+
+.padding-0-135{
+    padding: 0px 135px;
 }
 
 /* MARGIN */
